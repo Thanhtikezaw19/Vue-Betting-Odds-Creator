@@ -6,7 +6,7 @@
     <div class="input-div"><label>Team: <input v-model="team" class="input"/></label></div>
     <div class="input-div"><label>Body: <input v-model="body" class="input"/></label></div>
     <div class="input-div"><label>Goals: <input v-model="goals" class="input"/></label></div>
-    <button class="btn" @click="submitData">Submit</button>
+    <button class="btn" @click="submitData">Add</button>
   </div>
 </template>
 
@@ -70,8 +70,9 @@ label {
 }
 
 .btn {
-  padding: 5px 20px;
+  padding: 10px 40px;
   background-color: cornflowerblue;
   color: white;
+  border-radius: 5px;
 }
 </style>
